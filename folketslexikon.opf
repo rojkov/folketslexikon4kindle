@@ -1,0 +1,23 @@
+<package version="2.0" xmlns="http://www.idpf.org/2007/opf"
+    unique-identifier="folketslexikonforkindlebyrozhkov">
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:opf="http://www.idpf.org/2007/opf">
+   <dc:title>Swedish to English dictionary</dc:title>
+   <dc:creator opf:role="aut">Folkets Lexikon</dc:creator>
+   <dc:contributor opf:role="bkp">Dmitry Rozhkov</dc:contributor>
+   <dc:language>sv</dc:language>
+   <meta name="price" content="USD 2.99" />
+</metadata>
+<x-metadata>
+<DictionaryInLanguage>sv</DictionaryInLanguage>
+<DictionaryOutLanguage>en</DictionaryOutLanguage>
+<DefaultLookupIndex>swedish</DefaultLookupIndex>
+</x-metadata>
+<manifest>
+<item id="dict" href="dict-index.xml"
+                media-type="application/xhtml+xml" />
+</manifest>
+<spine toc="ncx">
+     <itemref idref="dict" />
+</spine>
+</package>
